@@ -29,7 +29,6 @@ def main() -> None:
     print("Time taken for membership lookup in list:", list_time)
     print("Time taken for membership lookup in set:", set_time)
     print("Set lookup is {} times faster than list lookup.".format(list_time / set_time))
-    print("Chase")
 
 if __name__ == '__main__':
     main()
